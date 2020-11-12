@@ -38,3 +38,5 @@ Strona z figurą zawiera następujące modyfikacje:
 - Przesunięcię kwadratu w lewo
 - Przesunięcię kwadratu w prawo
 - Funkcja generująca "szalony" ruch kwadratu
+
+Dodatkowo 3 funkcje tworzące navbar w js 
