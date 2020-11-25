@@ -11,7 +11,9 @@ Każda ominięta przeszkoda to +1 punkt. Łączna liczba punktów wyświetlana j
 ##Zrzuty ekranu
 
 Widok rozgrywki:
+
 ![game](images/game.bmp)
 
 Widok zdobytych punktów:
+
 ![end game](images/end_game.bmp)
