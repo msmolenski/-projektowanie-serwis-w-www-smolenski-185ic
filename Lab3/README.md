@@ -1,40 +1,26 @@
-#Laboratorium numer 2
+# Laboratorium numer 3
 
-Laboratorium miało na celu użycie 20 różnych metod i właściwości Java Script do modyfikacji storny www.
-Zostało one wykonane wykorzystując stronę z laboratorium numer 1 i zawiera następujące modyfikacje:
+Podczas laboratorium w ramach praktyki wykonano 9 zadań z JavaScript. Dodatkowo za pomocą metody addEventListener obsłużono 10 różnych wybranych zdarzeń. Laboratorium wykonano na bazie strony stworzonej w ramach poprzednich laboratoriów.
 
-##Wprowadzone zmiany
+## Wykonanie
 
-Strona główna projektu zawiera następujące modyfikacje:
-- Wygenerowanie tekstu w inny sposób niż html
-- Schowanie imienia i nazwiska przy pomocy przycisku
+9 zadań znajduje się w pliku zadania.js. Rezultat wykonanych zadań wyświetlany jest w konsoli na stronie głównej.
+
+Strona główna projektu obsługuje następujące zdarzenia:
+- Schowanie imienia i nazwiska przy pomocy przycisku po kliknięciu przycisku
 - Paragraf znika po najechaniu na niego kursorem
-- Zdjęcie się "podświetla" po najechaniu kursorem
+- Zdjęcie się "podświetla" gdy kursor znajduje się na nim
 - Zdjęcie "przygasa" po wyjechaniu z niego kursorem
-- Zmiana tła na szary kolor
-- Zmiana tła na losowy kolor
-- Wysunięcie informacji o zdjęciu po kliknięciu na nie
-
-Strona z listem zawiera następujące modyfikacje:
-- Powiększenie treści listu po najechaniu kursorem
-- Przywrócenie domyślej wielkości tekstu po zabraniu kursora
-- Wyświetlenie informacji po najechaniu na wstęp listu
-- Zmiana koloru wstępu listu po podwójnym kliknięciu
-
-Strona z "podręcznika" zawiera następujące modyfikacje:
-- Zmiana koloru tła tekstu
-- Przywrócenie poprzedniego tła tekstu
-- Zmniejszenie zdjęcia po kliknięciu
-- Zwiększenie zdjęcia po kliknięciu
+- Wysunięcie informacji o zdjęciu po kliknięciu na nie 
+- Alert informujący o skopiowaniu opisu
+Wymieniona obsługa zdarzeń znajduje się w pliku index.js
 
 Formularz zawiera następujące modyfikacje:
-- Schowanie/wyświetlenie pola z hasłem 
-- Wyczyszczenie pól formularza
-- Walidacja wprowadzanego hasła
-- Powiadomienie o prawidłowych/nieprawidłowych danych
+- zmiana koloru pola podczas wpisywania
+- przywrócenie koloru pola po przestaniu wpisywania
+- wyświetlenie wieku wybranego suwakiem
+- zmiana koloru pola hasła, po wklejeniu go ze schowka
+- przywrócenie koloru pola hasła, po użyciu klawisza Backspace
+Wymieniona obsługa zdarzeń znajduje się w pliku form.js
 
-Strona z figurą zawiera następujące modyfikacje:
-- Zresetowanie wielkości kwadratu
-- Przesunięcię kwadratu w lewo
-- Przesunięcię kwadratu w prawo
-- Funkcja generująca "szalony" ruch kwadratu
+
