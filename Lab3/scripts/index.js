@@ -20,7 +20,14 @@ hideButton.addEventListener("click", function(){
 //Paragraf znika po najechaniu na niego kursorem
 fadingParagraph.addEventListener("mouseenter", function(){
     fadingParagraph.style.display = "none";
+    fadingParagraph.removeEventListener("mouseenter", function(){
+        console.log('Usunięto obsługę zdarzenia!');
+    });
 });
+
+    fadingParagraph.removeEventListener("mouseenter", function(){
+        console.log('Usunięto obsługę zdarzenia!');
+    });
 
 //Zdjęcie się "podświetla" po najechaniu kursorem
 pictureDiv.addEventListener("mouseover", function(){
