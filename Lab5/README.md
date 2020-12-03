@@ -1,4 +1,4 @@
-#Laboratorium numer 5
+# Laboratorium numer 5
 
 Laboratorium miało na celu zapoznanie się z zapytaniami asynchronicznymi w JS.
 Zrealizowano po dwa przykłady dla każdego z 6 poleceń:
@@ -40,6 +40,6 @@ ww. obiekty powinny zawierać w tablicach i wartościach obiektów liczby i ła�
 - wystarczy użyć plików z CDN, opisanych w linku do biblioteki i umieścić je przed końcem sekcji ‘body’.
 
 
-##Zrzut ekranu przedstawiający zrealizwoane zadanie
+## Zrzut ekranu przedstawiający zrealizwoane zadanie
 
 ![tasks](images/tasks.png)
