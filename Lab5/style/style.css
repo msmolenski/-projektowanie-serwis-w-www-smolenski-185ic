@@ -1,0 +1,21 @@
+
+  .bigger {
+    font-size: large;
+  }
+  
+  .blue {
+    color: rgb(42, 162, 231);
+  }
+
+  .green {
+    background-color: rgb(129, 233, 133)
+  }
+
+  .picture-fade {
+    opacity: 0.8;
+  }
+
+  #panel {
+    padding: 50px;
+    display: none;
+  }
