@@ -14,3 +14,7 @@ Zostało one wykonane wykorzystując stronę z laboratorium numer 1
 Podczas laboratorium w ramach praktyki wykonano 9 zadań z JavaScript.
 Dodatkowo za pomocą metody addEventListener obsłużono 10 różnych wybranych zdarzeń.
 Laboratorium wykonano na bazie strony stworzonej w ramach poprzednich laboratoriów.
+
+## Lab4
+W ramach laboratorium wykonano grę przeglądarkową. Podczas rogrywki gracz wciela się w duszka 
+z popularnego Pacmana i próbuje się przedostać jak najdalej w ramach mechaniki znanej  gry Flappy Bird.
