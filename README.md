@@ -18,3 +18,7 @@ Laboratorium wykonano na bazie strony stworzonej w ramach poprzednich laboratori
 ## Lab4
 W ramach laboratorium wykonano grę przeglądarkową. Podczas rogrywki gracz wciela się w duszka 
 z popularnego Pacmana i próbuje się przedostać jak najdalej w ramach mechaniki znanej  gry Flappy Bird.
+
+## Lab5
+Laboratorium miało na celu zapoznanie się z zapytaniami asynchronicznymi w JS.
+Zrealizowano po dwa przykłady dla każdego z 6 poleceń.
