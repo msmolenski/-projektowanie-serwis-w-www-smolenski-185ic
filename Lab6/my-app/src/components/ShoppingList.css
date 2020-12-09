@@ -1,0 +1,13 @@
+.card {
+    padding: 10px;
+    border: 2px solid rgb(62, 56, 155);
+    margin: 10px;
+}
+
+.card.done {
+    opacity: .5;
+}
+
+.card.done h2{
+    text-decoration: line-through;
+}

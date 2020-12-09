@@ -19,7 +19,6 @@ var person =
 }
 
 function loadPerson(object, callback) {
-
   console.log(callback(object));
 }
 
