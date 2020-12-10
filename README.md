@@ -22,3 +22,7 @@ z popularnego Pacmana i próbuje się przedostać jak najdalej w ramach mechanik
 ## Lab5
 Laboratorium miało na celu zapoznanie się z zapytaniami asynchronicznymi w JS.
 Zrealizowano po dwa przykłady dla każdego z 6 poleceń.
+
+## Lab6 
+Laboratorium miało na celu zapoznanie się z Reactem oraz stworzenie aplikacji za pomocą modułu ‘create-react-app’.
+Zapoznano się z komponentami funkcyjnymi i klasowymi oraz ich wykorzystaniem.

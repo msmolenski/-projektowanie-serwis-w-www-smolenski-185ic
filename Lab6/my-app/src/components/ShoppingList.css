@@ -1,7 +1,11 @@
 .card {
     padding: 10px;
     border: 2px solid rgb(62, 56, 155);
-    margin: 10px;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    margin-bottom: 10px;
 }
 
 .card.done {
@@ -10,4 +14,9 @@
 
 .card.done h2{
     text-decoration: line-through;
+}
+
+.form{
+    width: 30%;
+    margin-bottom: 10px;
 }

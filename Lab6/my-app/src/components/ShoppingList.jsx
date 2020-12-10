@@ -1,14 +1,17 @@
 import React from 'react';
 import ShoppingItem from "./ShoppingItem"
-
+import Button from 'react-bootstrap/Button';
+import Alert from 'react-bootstrap/Alert';
+import Container from 'react-bootstrap/Container'
 
 class ShoppingList extends React.Component {
     state = {
         elements: [
             {id: 0, isDone: false, title: 'Papryka'},
-            {id: 1, isDone: false, title: 'Bułki'}
+            {id: 1, isDone: false, title: 'Pomidor'}
         ],
-        inputValue: ''
+        inputValue: '',
+        visible: false
     }
 
     markDone(id) {
@@ -22,7 +25,12 @@ class ShoppingList extends React.Component {
 
     addItem(){
         if (!this.state.inputValue){
-            alert("Nie można dodać pustego produktu")
+            this.setState({visible: true})
+            setTimeout(() => {
+                this.setState({
+                    visible: ! this.state.visible
+                })
+              }, 3000);
             return;
         }
         const item = {
@@ -33,6 +41,7 @@ class ShoppingList extends React.Component {
         this.setState({ elements: newElements })
         this.setState({ inputValue: '' })
     }
+
 
     inputHandler(event) {
         const newValue = event.target.value
@@ -45,12 +54,13 @@ class ShoppingList extends React.Component {
         })
 
         return (
-            <div>
-                Lista zakupów
-                <input typu="text" value={this.state.inputValue} onChange={this.inputHandler.bind(this)} />
-                <button onClick={this.addItem.bind(this)}>Dodaj</button>
+            <Container>
+                <h2>Lista zakupów</h2>
+                <Alert variant="warning" show={this.state.visible}>Nie można dodać pustego produktu</Alert>
+                <div><input className="form-control form" typu="text" value={this.state.inputValue} onChange={this.inputHandler.bind(this)} />
+                <Button variant="dark" className="add-button" onClick={this.addItem.bind(this)}>Dodaj</Button></div>
                 {elements}
-            </div>
+            </Container>
         )
     }
 }

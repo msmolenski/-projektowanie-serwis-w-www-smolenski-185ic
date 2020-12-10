@@ -118,7 +118,6 @@ function getByAxios(url) {
         reject(error);
       })
       .then(function () {
-
       });
   });
 }
