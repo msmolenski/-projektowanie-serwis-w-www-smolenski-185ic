@@ -26,3 +26,7 @@ Zrealizowano po dwa przykłady dla każdego z 6 poleceń.
 ## Lab6 
 Laboratorium miało na celu zapoznanie się z Reactem oraz stworzenie aplikacji za pomocą modułu ‘create-react-app’.
 Zapoznano się z komponentami funkcyjnymi i klasowymi oraz ich wykorzystaniem.
+
+## Lab7
+
+Laboratorium miało na celu wykorzystanie Material UI oraz React-Router do utworzenia prostej SPA
