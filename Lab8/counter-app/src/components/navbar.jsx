@@ -1,6 +1,7 @@
 import React from "react";
 
-// Stateless Functional Component
+// NavBar przedstawiający ilość różnych produktów w koszyku
+
 
 const NavBar = ({ totalCounters }) => {
   return (
@@ -10,7 +11,7 @@ const NavBar = ({ totalCounters }) => {
         <span className="badge badge-pill badge-info m-2" style={{ width: 50 }}>
           {totalCounters}
         </span>
-        Items
+        Liczba produktów
       </div>
     </nav>
   );

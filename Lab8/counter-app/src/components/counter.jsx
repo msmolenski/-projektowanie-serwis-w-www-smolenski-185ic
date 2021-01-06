@@ -1,9 +1,19 @@
 import React, { Component } from "react";
+import Form from 'react-bootstrap/Form';
 
+//import dodanego pliku css
+import "./counter.css";
+
+//komponent zawierający elementy każdego countera
+//dodano możliwość wpisania nazwy produktu oraz rozszerzania o dodatkowe produkty (countery)
 class Counter extends Component {
+
   render() {
     return (
-      <div>
+      <div className="card">
+          <div>
+          <Form.Control type="text" placeholder="Wpisz produkt..." />
+          </div>
         <div className="row">
           <div className="col-md-1">
             <span style={{ fontSize: 24 }} className={this.getBadgeClasses()}>
@@ -30,6 +40,12 @@ class Counter extends Component {
             >
               <i className="fa fa-trash-o" aria-hidden="true" />
             </button>
+            <button
+                    className="btn btn-success m-2"
+                    onClick={() => this.props.onAdd(this.props.counter.id)}
+                >
+                    <i className="fa fa-plus-circle" aria-hidden="true" />
+                </button>
           </div>
         </div>
       </div>
@@ -44,7 +60,7 @@ class Counter extends Component {
 
   formatCount = () => {
     const { value } = this.props.counter;
-    return value === 0 ? "Zero" : value;
+    return value === 0 ? "Brak" : value;
   };
 }
 
