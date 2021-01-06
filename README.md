@@ -28,5 +28,7 @@ Laboratorium miało na celu zapoznanie się z Reactem oraz stworzenie aplikacji 
 Zapoznano się z komponentami funkcyjnymi i klasowymi oraz ich wykorzystaniem.
 
 ## Lab7
-
 Laboratorium miało na celu wykorzystanie Material UI oraz React-Router do utworzenia prostej SPA
+
+## Lab8
+Laboratorium miało na celu implementację wybranego przykładu aplikacji Reactowej, modyfikację jej oraz przedstawienie wprowadzonych modyfikacji za pomocą git difftool
